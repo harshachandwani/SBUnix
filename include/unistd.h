@@ -2,7 +2,10 @@
 #define _UNISTD_H
 
 #include <sys/defs.h>
-
+int fork();
+uint64_t write(int fd_c, char* addr, int len);
+uint64_t read(int fd_c, char* addr, int len);
+/*
 int open(const char *pathname, int flags);
 int close(int fd);
 ssize_t read(int fd, void *buf, size_t count);
@@ -28,5 +31,6 @@ int unlink(const char *pathname);
 
 // OPTIONAL: implement for ``signals and pipes (+10 pts)''
 int pipe(int pipefd[2]);
-
+/
+*/
 #endif

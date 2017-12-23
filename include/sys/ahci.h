@@ -30,7 +30,22 @@
 #define MAX_CMD_SLOT_CNT 32
 #define MAX_PORT_CNT     32
 
-typedef enum {
+#define	SATA_SIG_ATA	0x00000101	// SATA drive
+#define	SATA_SIG_ATAPI	0xEB140101	// SATAPI drive
+#define	SATA_SIG_SEMB	0xC33C0101	// Enclosure management bridge
+#define	SATA_SIG_PM	0x96690101	// Port multiplier
+
+#define HBA_PORT_DET_PRESENT 0x03
+#define HBA_PORT_IPM_ACTIVE 0x01
+
+#define ATA_DEV_BUSY 0x80
+#define ATA_DEV_DRQ 0x08
+
+#define ATA_CMD_WRITE_DMA_EX 0x35
+#define ATA_CMD_READ_DMA_EX 0x25
+
+
+ enum {
   FIS_TYPE_REG_H2D = 0x27,   // Register FIS - host to device
   FIS_TYPE_REG_D2H = 0x34,   // Register FIS - device to host
   FIS_TYPE_DMA_ACT = 0x39,   // DMA activate FIS - device to host
