@@ -2,10 +2,10 @@
                                          ------------------------------------------
                                         
 Participants:
-1. Harsha Chandwani (SBU ID: 111481387)
-2. Ronak Shukla (SBU ID: 111447648)
+1. Harsha Chandwani 
+2. Ronak Shukla 
 
----------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 The project includes the following implementations:
 
@@ -18,7 +18,7 @@ e) Finding the first disk connected via AHCI
 f) Writing 100 4KB blocks to the disk, filling each block with corresponding byte (block 0 filled with byte 0, block 1 filled with byte 1, etc.)
 and reading the data back to verify it was written to disk correctly
 
----------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 Final Project:
 a) Freelist implementation
@@ -31,7 +31,7 @@ g) System calls (read, write)
 h) Loading an ELF by reading the tarfs
 i) Echo command works on shell.
 
----------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 References:
 a) OSdev.
