@@ -1,14 +1,37 @@
+                                                CSE-506 : Operating Systems
+                                         ------------------------------------------
+                                        
+Participants:
+1. Harsha Chandwani (SBU ID: 111481387)
+2. Ronak Shukla (SBU ID: 111447648)
+
+------------------------------------------------------------------------------------------------------------------------------
+
 The project includes the following implementations:
 
+Warm up projects:
+a) Kernel printf(kprintf)
+b) Interrupt handling : Keyboard and Timer Interrrupts
+c) Walking the PCI configuration space
+d) Discovering the AHCI controller
+e) Finding the first disk connected via AHCI
+f) Writing 100 4KB blocks to the disk, filling each block with corresponding byte (block 0 filled with byte 0, block 1 filled with byte 1, etc.)
+and reading the data back to verify it was written to disk correctly
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Final Project:
 a) Freelist implementation
 b) Paging
 c) Handling Page faults
-d) Terminals
-e) System calls (read, write)
-f) Loading an elf by reading the tarfs
-g) Timer interrupt handling
-h) Keyboard interrupt handling
+d) Context switching between the kernel threads
+e) Ring 0 to Ring 3 switch
+f) Terminals
+g) System calls (read, write)
+h) Loading an ELF by reading the tarfs
 i) Echo command works on shell.
+
+-------------------------------------------------------------------------------------------------------------------------------
 
 References:
 a) OSdev.
